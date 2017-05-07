@@ -3,3 +3,8 @@ This tutorial gives you a simple overview how to basically handle with the GPIO 
 Attached main.c file provides a straightforward description of used registers inside the MCU for the handling of the GPIO pins.
 For more details see the main file.
 The configuration file (config.h) comprises setup for necessary internal peripherals, e.g internal oscillator, deployment of the pins for I2C, ICSP and so on.
+
+In this tutorial was connected LED diode to the pin RA4. At the output RB4 a button was attached. 
+This program runs in a simple endless loop that check if the button was pressed. When the button is pressed the LED is turned OFF. After releasing the button the LED is turned ON.
+
+
