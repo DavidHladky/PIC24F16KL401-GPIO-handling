@@ -5,8 +5,8 @@ For more details see the main file.
 The configuration file (config.h) comprises setup for necessary internal peripherals, e.g internal oscillator, deployment of the pins for I2C, ICSP and so on.
 
 ## Description of the main.c 
-* In this tutorial was connected LED diode to the pin RA4. 
-* At the output RB4 was attached a button. 
+* In this tutorial was connected LED diode to the GPIO RB4. 
+* On the output GPIO RA4 is attached a button. 
 * This program runs in a simple endless loop that check if the button was pressed. 
   When the button is pressed the LED is turned OFF. After releasing the button the LED is turned ON.
 
